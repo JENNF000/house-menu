@@ -661,7 +661,11 @@
     "hue": 10
    },
    "time": "45 min",
-   "serves": "1"
+   "serves": "1",
+   "image": {
+    "kind": "photo",
+    "src": "images/m-tilapia-mvt3vv3q.jpg"
+   }
   },
   {
    "id": "m-mushroomsoup",
@@ -694,6 +698,10 @@
    "notes": "菌菇别炖太久：有人反馈蘑菇炖完像胶皮咬不动，就是下锅太早或炖得太久。鸡要用母鸡，作者在评论区确认过，汤更醇厚。",
    "art": {
     "hue": 40
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-mushroomsoup-mvt3vv3r.jpg"
    }
   },
   {
@@ -730,6 +738,10 @@
    "notes": "选鸭：视频推荐 15 元一斤的黑毛鸭头，老板说比 12 元一斤的普通鸭子好吃。焯水有争议：评论区高赞认为新鲜鸭子直接炒更好，焯水会变柴、不香。20 分钟常常炖不烂，可延长到 30–40 分钟，或用高压锅压 15 分钟再收汁。水要一次加够，有人 20 分钟就烧干了。",
    "art": {
     "hue": 22
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-beerduck-mvt3vv3r.jpg"
    }
   },
   {
@@ -769,6 +781,10 @@
    "notes": "核心三件事：彻底去腥、水开后大火快蒸 8 分钟、先泼油再淋汁。评论区反复提到盘底垫筷子或姜片，确实能减腥。",
    "art": {
     "hue": 200
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-steamedbass-mvt3vv3r.jpg"
    }
   },
   {
@@ -802,6 +818,10 @@
    "notes": "全程不放盐、不放生抽，咖喱块本身咸味已经够了，中途加水也不用补调料。用中小火，火太大 50 分钟水就烧干了。土豆胡萝卜最后放，提前放会煮太烂。赶时间可以用高压锅：焯水后上汽压 15 分钟，牛腩就软烂了，再开盖加蔬菜和咖喱块收汁。",
    "art": {
     "hue": 36
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-currybeef-mvt3vv3r.jpg"
    }
   },
   {
@@ -843,6 +863,10 @@
    "notes": "评论区补充：鸡翅不用焯水，新鲜的直接腌；扎孔入味不够深，直接划刀更入味；酱汁调好后先尝味道再裹鸡翅。",
    "art": {
     "hue": 30
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-garlicwings-mvt3vv3r.jpg"
    }
   },
   {
@@ -884,8 +908,12 @@
    "notes": "核心：提前一晚腌制，蔬菜垫底、鸡腿架在上层分开烤，190°C 热风 35 分钟。配菜也可以换成芦笋、口蘑等喜欢的蔬菜。",
    "art": {
     "hue": 28
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-roastlegs-mvt3vv3r.jpg"
    }
   }
  ],
- "updatedAt": 1793251494471
+ "updatedAt": 1793251920893
 }
