@@ -615,8 +615,12 @@
     "hue": 95
    },
    "serves": "",
-   "time": "1 h"
+   "time": "1 h",
+   "image": {
+    "kind": "photo",
+    "src": "images/m-greencurry-mvt2p7mg.jpg"
+   }
   }
  ],
- "updatedAt": 1793249783546
+ "updatedAt": 1793249919073
 }
