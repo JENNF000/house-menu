@@ -1,5 +1,5 @@
 /* Offline support. Bump VERSION when you change app files to refresh caches. */
-var VERSION = "house-menu-v1";
+var VERSION = "house-menu-v2";
 var SHELL = ["./", "index.html", "app.js", "styles.css", "manifest.webmanifest", "menu.json",
   "icons/icon-192.png", "icons/icon-512.png", "icons/apple-touch-icon.png"];
 

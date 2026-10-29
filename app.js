@@ -50,7 +50,7 @@ function guessRepo(){
 }
 
 /* ---------- illustration (default art, drawn in the page) ---------- */
-var artCache={};
+var artCache={}, LOCALIMG={}; // LOCALIMG: published path -> this device's copy, shown until GitHub Pages serves the file
 function artSVG(d){
   var a=d.art||{}, h=(a.hue!=null?a.hue:hash(d.name||d.id)%360);
   var bg="hsl("+((h+180)%360)+" 22% 88%)", bg2="hsl("+((h+180)%360)+" 18% 80%)";
@@ -95,7 +95,7 @@ function artSVG(d){
   return s+'</svg>';
 }
 function imgSrc(d){
-  if(d.image&&d.image.src)return d.image.src;
+  if(d.image&&d.image.src)return LOCALIMG[d.image.src]||d.image.src;
   var key=d.id+"|"+d.cat+"|"+(d.name||"")+"|"+(d.glass||"")+"|"+JSON.stringify(d.art||{});
   if(!artCache[key])artCache[key]="data:image/svg+xml;charset=utf-8,"+encodeURIComponent(artSVG(d));
   return artCache[key];
@@ -229,7 +229,7 @@ function publish(force){
     out.dishes.forEach(function(d){
       if(d.image&&/^data:/.test(d.image.src||"")){
         var svg=/^data:image\/svg/.test(d.image.src),name="images/"+d.id.replace(/[^a-z0-9-]/gi,"")+"-"+Date.now().toString(36)+(svg?".svg":".jpg");
-        uploads.push({path:name,b64:dataUrlToB64(d.image.src),dish:d.name});
+        uploads.push({path:name,b64:dataUrlToB64(d.image.src),dish:d.name,src:d.image.src});
         d.image.src=name;
       }
     });
@@ -242,7 +242,10 @@ function publish(force){
     return ghPutFile("menu.json",b64utf8(JSON.stringify(out,null,1)+"\n"),"Update menu ("+out.dishes.length+" dishes)");
   }).then(function(){
     PUBLISHED=clone(out);STATE=clone(out);
-    return Promise.all([kv.set("published",PUBLISHED),kv.del("draft")]);
+    uploads.forEach(function(u){LOCALIMG[u.path]=u.src});
+    var used={};STATE.dishes.forEach(function(d){if(d.image)used[d.image.src]=1});
+    Object.keys(LOCALIMG).forEach(function(k){if(!used[k])delete LOCALIMG[k]});
+    return Promise.all([kv.set("published",PUBLISHED),kv.del("draft"),kv.set("localImages",LOCALIMG)]);
   }).then(function(){
     render();toast("Published. The live menu updates in about a minute.");
   }).catch(function(e){
@@ -265,7 +268,7 @@ function itemHTML(d,q){
   var tags=(d.tags||[]).map(function(t){return (q&&t.indexOf(q.toLowerCase().replace(/^#/,""))>=0)||t===ui.tag?"<b>"+esc(t)+"</b>":esc(t)}).join(" · ");
   var meta=metaFor(d);
   return '<button class="item" data-open="'+esc(d.id)+'">'+
-    '<img class="thumb" alt="" loading="lazy" src="'+esc(imgSrc(d))+'">'+
+    '<img class="thumb" alt="" loading="lazy" data-dish="'+esc(d.id)+'" src="'+esc(imgSrc(d))+'">'+
     '<span class="item-body"><span class="item-top"><span class="item-name">'+esc(d.name)+(d.sample&&ui.edit?'<span class="sample">sample</span>':'')+'</span>'+
     (meta?'<span class="leader" aria-hidden="true"></span><span class="item-meta">'+esc(meta)+'</span>':'')+'</span>'+
     (d.cat==="cocktail"&&d.taste?'<span class="taste" style="display:block">'+esc(d.taste)+'</span>':'')+
@@ -343,7 +346,7 @@ function showDish(id){
   if(d.cat==="cocktail"){if(d.glass)facts.push(["Glass",d.glass]);if(d.method)facts.push(["Method",d.method])}
   else{if(d.serves)facts.push([/^\D/.test(d.serves)?"Yield":"Serves",d.serves]);if(d.time)facts.push(["Time",d.time])}
   var showRecipe=ui.edit||cap.canEdit||STATE.guestRecipes!==false;
-  var h='<img class="hero" alt="'+esc(d.name)+'" src="'+esc(imgSrc(d))+'"><div class="sheet-body">'+
+  var h='<img class="hero" alt="'+esc(d.name)+'" data-dish="'+esc(d.id)+'" src="'+esc(imgSrc(d))+'"><div class="sheet-body">'+
     '<div class="d-cat">'+c.one+(d.image&&d.image.kind==="ai"?' · illustrated by Claude':'')+'</div><h2 class="d-name">'+esc(d.name)+'</h2>'+
     (d.taste?'<p class="d-taste">'+esc(d.taste)+'</p>':'')+
     ((d.tags||[]).length?'<div class="d-tags">'+d.tags.map(function(t){return '<button class="chip" data-tagjump="'+esc(t)+'">'+esc(t)+'</button>'}).join("")+'</div>':'')+
@@ -582,6 +585,16 @@ document.addEventListener("change",function(e){
   if(e.target.id==="f-photo"){fstatus("Preparing photo…");readPhoto(f).then(function(src){draft.image={kind:"photo",src:src};document.getElementById("f-img").src=src;fstatus("Photo ready. Save to keep it.")}).catch(function(er){fstatus(er.message,true)});return}
   if(e.target.dataset.photo){var id=e.target.dataset.photo,d=find(id);fstatus("Preparing photo…");readPhoto(f).then(function(src){d.image={kind:"photo",src:src};return save("Photo saved").then(function(){showDish(id)})}).catch(function(er){fstatus(er.message,true)})}
 });
+document.addEventListener("error",function(e){
+  var img=e.target;if(!img||img.tagName!=="IMG"||!img.dataset.dish)return;
+  var d=find(img.dataset.dish);if(!d)return;
+  var art=imgSrc({id:d.id,cat:d.cat,name:d.name,glass:d.glass,art:d.art});
+  if(img.src===art)return;
+  if(!img.dataset.retried&&/^images\//.test((d.image&&d.image.src)||"")){
+    img.dataset.retried="1";img.src=art;
+    setTimeout(function(){var probe=new Image();probe.onload=function(){if(img.isConnected)img.src=probe.src};probe.src=d.image.src+"?r="+Date.now()},20000);
+  }else img.src=art;
+},true);
 window.addEventListener("online",function(){cap.offline=false;render()});
 window.addEventListener("offline",function(){cap.offline=true;render()});
 
@@ -591,9 +604,9 @@ function boot(){
   cap.canEdit=!!gh();
   Promise.all([
     fetch("menu.json",{cache:"no-cache"}).then(function(r){if(!r.ok)throw 0;return r.json()}).catch(function(){return null}),
-    kv.get("published"),kv.get("draft")
+    kv.get("published"),kv.get("draft"),kv.get("localImages")
   ]).then(function(r){
-    var server=r[0],local=r[1],dr=r[2];
+    var server=r[0],local=r[1],dr=r[2];LOCALIMG=r[3]||{};
     // GitHub Pages can take a minute to serve a fresh publish; prefer the newer copy.
     PUBLISHED=server||local||clone(EMPTY);
     if(local&&server&&(local.updatedAt||0)>(server.updatedAt||0))PUBLISHED=local;
