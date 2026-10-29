@@ -4,76 +4,6 @@
  "guestRecipes": true,
  "dishes": [
   {
-   "id": "s-salmon",
-   "cat": "meal",
-   "name": "Miso-Butter Salmon",
-   "serves": "2",
-   "time": "25 min",
-   "tags": [
-    "fish",
-    "weeknight",
-    "umami",
-    "broiled"
-   ],
-   "ingredients": [
-    "2 salmon fillets, 170 g each, skin on",
-    "2 tbsp white miso",
-    "1 tbsp unsalted butter, softened",
-    "1 tbsp mirin",
-    "1 tsp soy sauce",
-    "1 tsp grated ginger",
-    "2 scallions, thinly sliced",
-    "Toasted sesame seeds"
-   ],
-   "steps": [
-    "Heat the broiler with a rack about 6 in from the element. Line a sheet pan with foil.",
-    "Mash the miso, butter, mirin, soy sauce and ginger into a smooth paste.",
-    "Pat the salmon dry, set skin-side down on the pan and spread the paste over the tops.",
-    "Broil 7–9 minutes, until the glaze blisters and the thickest part reads 125°F for medium.",
-    "Scatter with scallions and sesame and serve with rice."
-   ],
-   "notes": "Watch the last two minutes closely. Miso goes from caramelized to burnt fast.",
-   "sample": true,
-   "art": {
-    "hue": 18
-   }
-  },
-  {
-   "id": "s-adobo",
-   "cat": "meal",
-   "name": "Chicken Adobo",
-   "serves": "4",
-   "time": "55 min",
-   "tags": [
-    "chicken",
-    "filipino",
-    "braise",
-    "make-ahead"
-   ],
-   "ingredients": [
-    "2 lb bone-in, skin-on chicken thighs",
-    "½ cup cane or rice vinegar",
-    "⅓ cup soy sauce",
-    "1 head garlic, cloves smashed",
-    "3 bay leaves",
-    "1 tsp whole black peppercorns",
-    "1 tbsp brown sugar",
-    "1 cup water"
-   ],
-   "steps": [
-    "Combine everything in a wide pan. Marinate 30 minutes if you have time.",
-    "Bring to a boil and leave it unstirred for 5 minutes so the vinegar mellows.",
-    "Cover and simmer 30 minutes, turning the chicken once.",
-    "Lift out the chicken and crisp it skin-side down in a hot skillet.",
-    "Reduce the sauce by half, return the chicken and spoon the sauce over. Serve with rice."
-   ],
-   "notes": "Better on day two. The sauce keeps a week in the fridge.",
-   "sample": true,
-   "art": {
-    "hue": 30
-   }
-  },
-  {
    "id": "s-vodka",
    "cat": "meal",
    "name": "Rigatoni alla Vodka",
@@ -915,5 +845,5 @@
    }
   }
  ],
- "updatedAt": 1793251920893
+ "updatedAt": 1793251970401
 }
