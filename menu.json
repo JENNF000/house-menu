@@ -503,7 +503,7 @@
    "id": "m-aglioolio",
    "cat": "meal",
    "name": "蒜香橄榄油意面 Aglio e Olio",
-   "time": "15 min",
+   "time": "30 min",
    "tags": [
     "pasta",
     "vegetarian",
@@ -535,7 +535,8 @@
    "image": {
     "kind": "photo",
     "src": "images/m-aglioolio-mvt1fzln.jpg"
-   }
+   },
+   "serves": ""
   },
   {
    "id": "m-tonkatsu",
@@ -556,7 +557,7 @@
     "洋白菜，切细丝",
     "猪排酱",
     "芝麻",
-    "炸油（足够浸没猪排）"
+    "玉米油（足够浸没猪排）"
    ],
    "steps": [
     "断筋：用刀在 *猪里脊* 肥瘦之间的肉筋处切断，防止炸的时候肉收缩卷曲。",
@@ -570,13 +571,17 @@
     "配菜：*洋白菜* 切细丝，用水泡一下会更薄脆。",
     "蘸料：*猪排酱* 里放入 *芝麻*，味道更香，配猪排一起吃。"
    ],
-   "notes": "评论区踩坑：有人按 165°C 下锅很快就糊了，作者说大概率是油太少或锅太小，导致温度失控。用深底锅，油量要足够浸没猪排，温度计别省。",
+   "notes": "评论区踩坑：有人按 165°C 下锅很快就糊了，大概率是油太少或锅太小，导致温度失控。用深底锅，油量要足够浸没猪排，温度计别省。",
    "art": {
     "hue": 32
    },
    "time": "45 min",
-   "serves": "Makes 2 cutlets"
+   "serves": "Makes 2 cutlets",
+   "image": {
+    "kind": "photo",
+    "src": "images/m-tonkatsu-mvt1w422.jpg"
+   }
   }
  ],
- "updatedAt": 1793248339942
+ "updatedAt": 1793248561788
 }
