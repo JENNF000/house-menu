@@ -575,8 +575,12 @@
     "hue": 32
    },
    "time": "45 min",
-   "serves": "Makes 2 cutlets"
+   "serves": "Makes 2 cutlets",
+   "image": {
+    "kind": "photo",
+    "src": "images/m-tonkatsu-mvt23rxe.jpg"
+   }
   }
  ],
- "updatedAt": 1793248824036
+ "updatedAt": 1793248918965
 }
