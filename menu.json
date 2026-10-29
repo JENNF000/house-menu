@@ -493,6 +493,10 @@
    "notes": "三文鱼下锅前再腌，提前腌会出水。怕奶油太腻，可以用一半淡奶油、一半全脂牛奶。",
    "art": {
     "hue": 14
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-tuscansalmon-mvt1fzlm.jpg"
    }
   },
   {
@@ -527,8 +531,12 @@
    "notes": "核心秘诀是煮面水里的淀粉能帮助酱汁乳化，让蒜油和面更好地融合。不用额外加奶油或芝士，清爽又香。",
    "art": {
     "hue": 48
+   },
+   "image": {
+    "kind": "photo",
+    "src": "images/m-aglioolio-mvt1fzln.jpg"
    }
   }
  ],
- "updatedAt": 0
+ "updatedAt": 1793247810896
 }
