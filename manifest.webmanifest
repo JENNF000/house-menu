@@ -1,0 +1,15 @@
+{
+  "name": "The House Menu",
+  "short_name": "House Menu",
+  "description": "Meals, desserts and cocktails: a menu for guests and a recipe box for the kitchen.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#E9ECE4",
+  "theme_color": "#E9ECE4",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

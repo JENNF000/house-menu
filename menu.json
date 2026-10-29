@@ -1,0 +1,534 @@
+{
+ "title": "The House Menu",
+ "subtitle": "Kept by hand, cooked often, poured generously.",
+ "guestRecipes": true,
+ "dishes": [
+  {
+   "id": "s-salmon",
+   "cat": "meal",
+   "name": "Miso-Butter Salmon",
+   "serves": "2",
+   "time": "25 min",
+   "tags": [
+    "fish",
+    "weeknight",
+    "umami",
+    "broiled"
+   ],
+   "ingredients": [
+    "2 salmon fillets, 170 g each, skin on",
+    "2 tbsp white miso",
+    "1 tbsp unsalted butter, softened",
+    "1 tbsp mirin",
+    "1 tsp soy sauce",
+    "1 tsp grated ginger",
+    "2 scallions, thinly sliced",
+    "Toasted sesame seeds"
+   ],
+   "steps": [
+    "Heat the broiler with a rack about 6 in from the element. Line a sheet pan with foil.",
+    "Mash the miso, butter, mirin, soy sauce and ginger into a smooth paste.",
+    "Pat the salmon dry, set skin-side down on the pan and spread the paste over the tops.",
+    "Broil 7–9 minutes, until the glaze blisters and the thickest part reads 125°F for medium.",
+    "Scatter with scallions and sesame and serve with rice."
+   ],
+   "notes": "Watch the last two minutes closely. Miso goes from caramelized to burnt fast.",
+   "sample": true,
+   "art": {
+    "hue": 18
+   }
+  },
+  {
+   "id": "s-adobo",
+   "cat": "meal",
+   "name": "Chicken Adobo",
+   "serves": "4",
+   "time": "55 min",
+   "tags": [
+    "chicken",
+    "filipino",
+    "braise",
+    "make-ahead"
+   ],
+   "ingredients": [
+    "2 lb bone-in, skin-on chicken thighs",
+    "½ cup cane or rice vinegar",
+    "⅓ cup soy sauce",
+    "1 head garlic, cloves smashed",
+    "3 bay leaves",
+    "1 tsp whole black peppercorns",
+    "1 tbsp brown sugar",
+    "1 cup water"
+   ],
+   "steps": [
+    "Combine everything in a wide pan. Marinate 30 minutes if you have time.",
+    "Bring to a boil and leave it unstirred for 5 minutes so the vinegar mellows.",
+    "Cover and simmer 30 minutes, turning the chicken once.",
+    "Lift out the chicken and crisp it skin-side down in a hot skillet.",
+    "Reduce the sauce by half, return the chicken and spoon the sauce over. Serve with rice."
+   ],
+   "notes": "Better on day two. The sauce keeps a week in the fridge.",
+   "sample": true,
+   "art": {
+    "hue": 30
+   }
+  },
+  {
+   "id": "s-vodka",
+   "cat": "meal",
+   "name": "Rigatoni alla Vodka",
+   "serves": "4",
+   "time": "30 min",
+   "tags": [
+    "pasta",
+    "vegetarian",
+    "weeknight",
+    "creamy"
+   ],
+   "ingredients": [
+    "1 lb rigatoni",
+    "3 tbsp unsalted butter",
+    "1 shallot, minced",
+    "2 garlic cloves, minced",
+    "¼ cup double-concentrated tomato paste",
+    "½ tsp chili flakes",
+    "¼ cup vodka",
+    "¾ cup heavy cream",
+    "½ cup grated Parmigiano, plus more to serve",
+    "Kosher salt"
+   ],
+   "steps": [
+    "Boil the rigatoni in well-salted water until 2 minutes shy of al dente. Save 1 cup pasta water.",
+    "Melt the butter, then soften the shallot and garlic for 3 minutes.",
+    "Add the tomato paste and chili and cook, stirring, until it darkens to brick red.",
+    "Pour in the vodka and let it bubble off, about 1 minute. Stir in the cream.",
+    "Add the pasta, cheese and a splash of pasta water. Toss until glossy and clinging."
+   ],
+   "notes": "",
+   "sample": true,
+   "art": {
+    "hue": 8
+   }
+  },
+  {
+   "id": "s-olive",
+   "cat": "dessert",
+   "name": "Olive Oil Cake",
+   "serves": "10",
+   "time": "1 hr 10 min",
+   "tags": [
+    "cake",
+    "citrus",
+    "make-ahead"
+   ],
+   "ingredients": [
+    "1¾ cups (220 g) all-purpose flour",
+    "1 cup (200 g) sugar",
+    "1 tsp baking powder",
+    "½ tsp baking soda",
+    "½ tsp kosher salt",
+    "3 large eggs",
+    "1 cup (220 ml) extra-virgin olive oil",
+    "1 cup whole milk",
+    "Zest of 2 oranges, plus 2 tbsp juice"
+   ],
+   "steps": [
+    "Heat the oven to 350°F. Oil a 9-inch round pan and line it with parchment.",
+    "Rub the zest into the sugar, then whisk in the eggs until pale.",
+    "Whisk in the olive oil, milk and orange juice.",
+    "Fold in the flour, baking powder, baking soda and salt until just combined.",
+    "Bake 50–60 minutes, until a tester comes out clean. Cool 30 minutes before unmolding."
+   ],
+   "notes": "Use a fruity, grassy oil. The cake tastes of whatever you pour in.",
+   "sample": true,
+   "art": {
+    "hue": 45
+   }
+  },
+  {
+   "id": "s-cookie",
+   "cat": "dessert",
+   "name": "Brown Butter Chocolate Chip Cookies",
+   "serves": "Makes 18",
+   "time": "40 min + chill",
+   "tags": [
+    "cookies",
+    "chocolate",
+    "brown-butter"
+   ],
+   "ingredients": [
+    "1 cup (226 g) unsalted butter",
+    "1 cup (200 g) dark brown sugar",
+    "½ cup (100 g) granulated sugar",
+    "2 large eggs",
+    "2 tsp vanilla extract",
+    "2¼ cups (280 g) all-purpose flour",
+    "1 tsp baking soda",
+    "1 tsp kosher salt",
+    "225 g dark chocolate, chopped",
+    "Flaky salt"
+   ],
+   "steps": [
+    "Brown the butter until it smells nutty and the solids are toasty. Cool 15 minutes.",
+    "Whisk in both sugars, then the eggs and vanilla.",
+    "Stir in the flour, baking soda and salt, then the chocolate.",
+    "Chill the dough at least 1 hour, or overnight.",
+    "Bake 3-tbsp balls at 375°F for 10–12 minutes. Finish with flaky salt."
+   ],
+   "notes": "",
+   "sample": true,
+   "art": {
+    "hue": 28
+   }
+  },
+  {
+   "id": "s-panna",
+   "cat": "dessert",
+   "name": "Vanilla Bean Panna Cotta",
+   "serves": "6",
+   "time": "20 min + 4 hr set",
+   "tags": [
+    "custard",
+    "make-ahead",
+    "berries"
+   ],
+   "ingredients": [
+    "2¼ tsp powdered gelatin (1 packet)",
+    "3 tbsp cold milk",
+    "2 cups heavy cream",
+    "1 cup whole milk",
+    "⅓ cup sugar",
+    "1 vanilla bean, split and scraped",
+    "Pinch of salt",
+    "Fresh berries to serve"
+   ],
+   "steps": [
+    "Sprinkle the gelatin over the cold milk and let it bloom 5 minutes.",
+    "Warm the cream, milk, sugar, vanilla and salt until steaming. Do not boil.",
+    "Off the heat, whisk in the bloomed gelatin until fully dissolved.",
+    "Strain into six glasses and chill at least 4 hours.",
+    "Top with berries just before serving."
+   ],
+   "notes": "It should wobble. If it stands up stiff, use a little less gelatin next time.",
+   "sample": true,
+   "art": {
+    "hue": 340
+   }
+  },
+  {
+   "id": "s-plane",
+   "cat": "cocktail",
+   "name": "Paper Plane",
+   "taste": "Bittersweet orange and amaro over bourbon, with a bright lemon snap.",
+   "glass": "Coupe",
+   "method": "Shaken",
+   "tags": [
+    "bourbon",
+    "amaro",
+    "citrus",
+    "bittersweet"
+   ],
+   "ingredients": [
+    "22.5 ml bourbon",
+    "22.5 ml Aperol",
+    "22.5 ml Amaro Nonino",
+    "22.5 ml fresh lemon juice"
+   ],
+   "steps": [
+    "Chill a coupe.",
+    "Add *22.5 ml bourbon*, *22.5 ml Aperol*, *22.5 ml Amaro Nonino* and *22.5 ml fresh lemon juice* to a shaker with ice.",
+    "Shake hard for 12 seconds.",
+    "Fine-strain into the chilled coupe. No garnish."
+   ],
+   "notes": "Equal parts makes it easy to scale for a crowd.",
+   "sample": true,
+   "art": {
+    "hue": 24,
+    "glass": "coupe"
+   }
+  },
+  {
+   "id": "s-pen",
+   "cat": "cocktail",
+   "name": "Penicillin",
+   "taste": "Smoky and soothing: honeyed ginger heat under a peaty Islay wisp.",
+   "glass": "Rocks",
+   "method": "Shaken",
+   "tags": [
+    "scotch",
+    "smoky",
+    "ginger",
+    "honey"
+   ],
+   "ingredients": [
+    "60 ml blended Scotch",
+    "22.5 ml fresh lemon juice",
+    "22.5 ml honey-ginger syrup",
+    "7.5 ml Islay single malt, to float",
+    "Candied ginger, to garnish"
+   ],
+   "steps": [
+    "Shake *60 ml blended Scotch*, *22.5 ml fresh lemon juice* and *22.5 ml honey-ginger syrup* with ice.",
+    "Strain over one large cube in a rocks glass.",
+    "Gently float *7.5 ml Islay single malt* over the back of a spoon.",
+    "Garnish with *candied ginger* on a pick."
+   ],
+   "notes": "Honey-ginger syrup: simmer 1 cup honey, 1 cup water and a 6-inch piece of sliced ginger for 5 minutes, then strain.",
+   "sample": true,
+   "art": {
+    "hue": 38,
+    "glass": "rocks"
+   }
+  },
+  {
+   "id": "s-gimlet",
+   "cat": "cocktail",
+   "name": "Gimlet",
+   "taste": "Crisp and tart: juniper-bright gin sharpened with fresh lime.",
+   "glass": "Nick & Nora",
+   "method": "Shaken",
+   "tags": [
+    "gin",
+    "citrus",
+    "sour",
+    "classic"
+   ],
+   "ingredients": [
+    "60 ml London dry gin",
+    "22.5 ml fresh lime juice",
+    "22.5 ml simple syrup (1:1)",
+    "Lime wheel, to garnish"
+   ],
+   "steps": [
+    "Chill a Nick & Nora glass.",
+    "Shake *60 ml London dry gin*, *22.5 ml fresh lime juice* and *22.5 ml simple syrup (1:1)* with ice until the tin frosts.",
+    "Double-strain into the glass.",
+    "Float a thin *lime wheel* on top."
+   ],
+   "notes": "",
+   "sample": true,
+   "art": {
+    "hue": 95,
+    "glass": "nick"
+   }
+  },
+  {
+   "id": "c-oldfashioned",
+   "cat": "cocktail",
+   "name": "Old Fashioned",
+   "taste": "Rich and spirit-forward: warm whiskey, a touch of sugar, bitters spice and orange oil.",
+   "glass": "Rocks",
+   "method": "Stirred",
+   "tags": [
+    "bourbon",
+    "rye",
+    "stirred",
+    "bitters",
+    "classic"
+   ],
+   "ingredients": [
+    "60 ml bourbon or rye",
+    "7.5 ml rich demerara syrup (2:1), or 1 sugar cube",
+    "2 dashes Angostura bitters",
+    "1 dash orange bitters",
+    "Orange peel, to garnish"
+   ],
+   "steps": [
+    "Add *60 ml bourbon or rye*, *7.5 ml rich demerara syrup (2:1)*, *2 dashes Angostura bitters* and *1 dash orange bitters* to a mixing glass. (If using *1 sugar cube* instead of syrup, muddle it with the bitters and a splash of water first.)",
+    "Fill with ice and stir 20–30 seconds, until well chilled.",
+    "Strain over one large cube in a rocks glass.",
+    "Express the *orange peel* over the drink, rub it on the rim and drop it in."
+   ],
+   "notes": "Rye makes it drier and spicier; bourbon makes it rounder and sweeter.",
+   "art": {
+    "hue": 30,
+    "glass": "rocks"
+   }
+  },
+  {
+   "id": "c-whiskeysour",
+   "cat": "cocktail",
+   "name": "Whiskey Sour",
+   "taste": "Tart lemon and soft bourbon sweetness under a silky, foamy top.",
+   "glass": "Rocks",
+   "method": "Shaken",
+   "tags": [
+    "bourbon",
+    "citrus",
+    "sour",
+    "foamy",
+    "classic"
+   ],
+   "ingredients": [
+    "60 ml bourbon",
+    "22.5 ml fresh lemon juice",
+    "22.5 ml simple syrup (1:1)",
+    "15 ml egg white (optional)",
+    "Angostura bitters and a cherry, to garnish"
+   ],
+   "steps": [
+    "Add *60 ml bourbon*, *22.5 ml fresh lemon juice*, *22.5 ml simple syrup (1:1)* and *15 ml egg white* (optional) to a shaker without ice. Shake hard 15 seconds to foam.",
+    "Add ice and shake again until very cold.",
+    "Strain over fresh ice in a rocks glass (or up, into a chilled coupe).",
+    "Dot a few drops of *Angostura bitters* on the foam and add *a cherry*."
+   ],
+   "notes": "Skip the egg white for a brighter, lighter sour. Aquafaba works as a vegan swap.",
+   "art": {
+    "hue": 46,
+    "glass": "rocks"
+   }
+  },
+  {
+   "id": "c-paloma",
+   "cat": "cocktail",
+   "name": "Paloma",
+   "taste": "Bright and refreshing: tart grapefruit fizz over earthy tequila with a salty edge.",
+   "glass": "Highball",
+   "method": "Built",
+   "tags": [
+    "tequila",
+    "grapefruit",
+    "citrus",
+    "refreshing",
+    "highball"
+   ],
+   "ingredients": [
+    "60 ml blanco tequila",
+    "15 ml fresh lime juice",
+    "Pinch of salt",
+    "120 ml grapefruit soda (Jarritos, Squirt or Fever-Tree)",
+    "Lime or grapefruit wedge, to garnish",
+    "Coarse salt for the rim (optional)"
+   ],
+   "steps": [
+    "Salt half the rim of a highball glass with *coarse salt* if you like, then fill it with ice.",
+    "Add *60 ml blanco tequila*, *15 ml fresh lime juice* and *a pinch of salt*.",
+    "Top with *120 ml grapefruit soda* and give it one gentle stir.",
+    "Garnish with *a lime or grapefruit wedge*."
+   ],
+   "notes": "For a fresher version, use 60 ml fresh grapefruit juice, 7.5 ml simple syrup and 60 ml soda water in place of the grapefruit soda.",
+   "art": {
+    "hue": 350,
+    "glass": "highball"
+   }
+  },
+  {
+   "id": "c-shootingpier",
+   "cat": "cocktail",
+   "name": "Shooting the Pier",
+   "taste": "Light and summery: fresh watermelon and floral elderflower, lifted by lime and basil.",
+   "glass": "Coupe",
+   "method": "Shaken",
+   "tags": [
+    "vodka",
+    "watermelon",
+    "elderflower",
+    "herbal",
+    "citrus",
+    "refreshing"
+   ],
+   "ingredients": [
+    "45 ml vodka (Tito's)",
+    "15 ml elderflower liqueur (St-Germain)",
+    "30 ml fresh watermelon juice",
+    "15 ml fresh lime juice",
+    "7.5 ml simple syrup (optional, depending on the watermelon's sweetness)",
+    "3–4 fresh basil leaves, plus 1 to garnish"
+   ],
+   "steps": [
+    "Muddle: place *3–4 fresh basil leaves* and *15 ml fresh lime juice* in a shaker. Gently muddle the basil to release the oils (don't shred it, or the drink will get bitter).",
+    "Combine: add *45 ml vodka*, *15 ml elderflower liqueur*, *30 ml fresh watermelon juice* and *7.5 ml simple syrup* (optional, depending on the watermelon's sweetness) to the shaker.",
+    "Shake: fill the shaker with plenty of ice. Shake vigorously for 10–15 seconds, until the outside of the tin is frost-cold.",
+    "Strain: double strain (Hawthorne strainer plus a fine-mesh tea strainer) into a chilled coupe, or over fresh ice in a rocks glass. Double straining is key to catch the basil bits.",
+    "Garnish: slap *1 fresh basil leaf* between your palms to release the aroma and float it on top."
+   ],
+   "notes": "",
+   "art": {
+    "hue": 352,
+    "glass": "coupe"
+   }
+  },
+  {
+   "id": "m-tuscansalmon",
+   "cat": "meal",
+   "name": "托斯卡纳三文鱼意面",
+   "serves": "2–3",
+   "time": "30 min",
+   "tags": [
+    "salmon",
+    "fish",
+    "pasta",
+    "creamy",
+    "tuscan",
+    "high-protein"
+   ],
+   "ingredients": [
+    "三文鱼 375–450 克（约 2.5 块三文鱼排）",
+    "Fettuccine 意面 200–225 克（干面）",
+    "淡奶油 375 毫升（怕腻可换成 190 毫升淡奶油 + 190 毫升全脂牛奶）",
+    "黄油 20–25 克",
+    "大蒜 5–8 瓣，切末",
+    "洋葱 110–130 克，切末",
+    "罗马小番茄 10–12 颗，对半切",
+    "油浸日晒番茄干 25–35 克（5–7 片），切丝；另备番茄干里的油 1–1.5 汤匙",
+    "番茄膏 2.5 小勺（12–15 克）",
+    "Baby spinach 菠菜 100–125 克",
+    "帕玛森芝士 35–50 克，擦细",
+    "蒜粉 1–1.5 小勺",
+    "红椒粉 0.5–1 小勺",
+    "Basil 1 小勺",
+    "新鲜欧芹，切碎",
+    "白糖 ½ 小勺",
+    "盐、黑胡椒 适量"
+   ],
+   "steps": [
+    "腌制三文鱼：用厨房纸擦干 *375–450 克三文鱼* 表面的水分。下锅前再用 *盐*、*黑胡椒* 和 *蒜粉* 腌制（提前腌太久会出水）。",
+    "煎三文鱼：锅里倒入 *1–1.5 汤匙日晒番茄油*，中小火下锅煎三文鱼，逼出三文鱼自身的油脂，煎到两面金黄后盛出备用。",
+    "煮意面：盐水煮 *200–225 克 fettuccine* ，煮8分钟至 al dente（保留一点点硬芯），捞出两勺面汤备用。",
+    "炒香底料：不洗锅，融化 *20–25 克黄油*，炒香 *110–130 克洋葱末* 和 *5–8 瓣蒜末*，同时刮下锅底的精华。加入 *2.5 小勺番茄膏*（增香增色），放入 *10–12 颗对半切的小番茄* 和 *25–35 克番茄干*，翻炒到番茄表皮微微起皱。加入 *一点盐* 和 *½ 小勺白糖* 帮助番茄出沙。",
+    "做奶油酱：倒入 *375 毫升淡奶油*，轻轻搅拌让奶酱顺滑融合。加入 *1 小勺basil*、*0.5–1 小勺红椒粉*、*蒜粉*、*盐* 和 *黑胡椒* 调味。放入 *100–125 克菠菜*，小火慢慢煮到完全变软，再撒入 *约 30 克帕玛森芝士* 搅匀。",
+    "混合意面：把煮好的意面直接倒进奶油酱里，加入预留的 *两勺面汤*。把煎好的三文鱼放回酱里煮一下，把酱汁收到浓稠，尝味后不够咸再补一点盐。",
+    "装盘：意面铺底，放上三文鱼，撒上 *10–20 克帕玛森芝士* 和 *欧芹碎*。"
+   ],
+   "notes": "三文鱼下锅前再腌，提前腌会出水。怕奶油太腻，可以用一半淡奶油、一半全脂牛奶。",
+   "art": {
+    "hue": 14
+   }
+  },
+  {
+   "id": "m-aglioolio",
+   "cat": "meal",
+   "name": "蒜香橄榄油意面 Aglio e Olio",
+   "time": "15 min",
+   "tags": [
+    "pasta",
+    "vegetarian",
+    "garlic",
+    "italian",
+    "weeknight",
+    "quick"
+   ],
+   "ingredients": [
+    "意大利面",
+    "大蒜，切片（多放点才香）",
+    "橄榄油",
+    "辣椒碎（可选，喜欢微辣可以加）",
+    "欧芹 Parsley，切碎",
+    "盐"
+   ],
+   "steps": [
+    "煮面：*意大利面* 按包装说明煮熟，水里记得加 *盐*。",
+    "煸蒜：煮面的同时，平底锅里倒 *橄榄油*，小火把 *蒜片* 慢慢煸香，注意别焦了。",
+    "加辣（可选）：喜欢微辣的话，加点 *辣椒碎* 一起煸。",
+    "下面：面煮好后捞出来，直接放进蒜油锅里，加 *一点点煮面水*。",
+    "乳化：开中火快速搅拌，让油和水慢慢融合成有点浓稠的酱汁，裹在面上。",
+    "出锅：撒一把 *切碎的欧芹*，翻拌均匀就能出锅了。"
+   ],
+   "notes": "核心秘诀是煮面水里的淀粉能帮助酱汁乳化，让蒜油和面更好地融合。不用额外加奶油或芝士，清爽又香。",
+   "art": {
+    "hue": 48
+   }
+  }
+ ],
+ "updatedAt": 0
+}
