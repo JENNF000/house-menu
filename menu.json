@@ -584,7 +584,7 @@
   {
    "id": "m-greencurry",
    "cat": "meal",
-   "name": "泰式绿咖喱椰奶炖鸡 Thai Green Curry",
+   "name": "泰式绿咖喱椰奶炖鸡 Thai Green Chicken Curry",
    "tags": [
     "chicken",
     "thai",
@@ -612,8 +612,10 @@
    "notes": "全程小火：椰奶大火容易油水分离，从头到尾保持小火是关键。泰式咖喱不需要放洋葱。",
    "art": {
     "hue": 95
-   }
+   },
+   "serves": "",
+   "time": "1 h"
   }
  ],
- "updatedAt": 1793249648556
+ "updatedAt": 1793249743208
 }
