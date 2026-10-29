@@ -503,7 +503,7 @@
    "id": "m-aglioolio",
    "cat": "meal",
    "name": "蒜香橄榄油意面 Aglio e Olio",
-   "time": "15 min",
+   "time": "30 min",
    "tags": [
     "pasta",
     "vegetarian",
@@ -535,7 +535,8 @@
    "image": {
     "kind": "photo",
     "src": "images/m-aglioolio-mvt1fzln.jpg"
-   }
+   },
+   "serves": ""
   },
   {
    "id": "m-tonkatsu",
@@ -617,5 +618,5 @@
    "time": "1 h"
   }
  ],
- "updatedAt": 1793249743208
+ "updatedAt": 1793249783546
 }
